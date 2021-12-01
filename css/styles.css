@@ -1,0 +1,66 @@
+body {
+    background-color: #F9F7F3;
+}
+
+.top-container {
+    min-height: 100vh;
+    background-image: url("../images/1M3A4521.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-width: 100%;
+}
+
+.filter {
+    background-color: rgba(94,97,98,0.4);
+    min-height: 100vh;
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.intro-text-container {
+    border: 3px solid white;
+    padding: 50px;
+    font-family: 'Cedarville Cursive', cursive;
+    color: white;
+}
+
+.intro-text-container h1 {
+    font-size: 3rem;
+}
+
+.navbar {
+    padding: 0 10%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navbar-brand {
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 32px;
+    font-weight: 500;
+    color: #F9F7F3 !important;
+}
+
+.nav-link {
+    color: #F9F7F3 !important;
+}
+
+.navbar-light {
+    background-color: rgba(94,97,98,0.5)
+}
+
+.nav-link {
+    margin-left: auto;
+}
+
+.video-wrapper {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
