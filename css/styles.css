@@ -12,7 +12,7 @@ body {
 }
 
 .filter {
-    background-color: rgba(94,97,98,0.4);
+    background-color: rgba(94,97,98,0.3);
     min-height: 100vh;
     min-width: 100%;
     display: flex;
