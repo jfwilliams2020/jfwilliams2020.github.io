@@ -1,7 +1,10 @@
 body {
     background-color: #F9F7F3;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1.25em;
 }
 
+/* Top container styles */
 .top-container {
     min-height: 100vh;
     background-image: url("../images/1M3A4521.JPG");
@@ -59,8 +62,27 @@ body {
     margin-left: auto;
 }
 
+/* Vlog container styles */
+#vlogs {
+    margin-top: 25px;
+    padding: 0 10%;
+}
+
+#vlogs hr {
+    height: 3px;
+}
+
+.vlog-wrapper {
+    padding: 15px;
+    max-width: 600px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
 .video-wrapper {
-    margin-top: 100px;
+    margin: 25px 0;
     display: flex;
     justify-content: center;
 }
