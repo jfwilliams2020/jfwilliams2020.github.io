@@ -57,19 +57,23 @@ body {
     font-family: 'Cedarville Cursive', cursive;
     font-size: 32px;
     font-weight: 500;
-    color: #F9F7F3 !important;
+    color: white !important;
 }
 
 .nav-link {
-    color: #F9F7F3 !important;
+    color: white !important;
 }
 
-.navbar-light {
+.navbar-dark {
     background-color: rgba(94,97,98,0.5)
 }
 
 .nav-link {
     margin-left: auto;
+}
+
+.navbar-toggler {
+    border: 2px solid white !important;
 }
 
 /* Vlog container styles */
@@ -86,10 +90,17 @@ body {
     padding: 15px;
     max-width: 600px;
     text-align: center;
-    border: 2px solid black;
     border-radius: 10px;
     overflow: hidden;
-    margin: 25px 0;
+    margin: 25px 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: transform 0.5s;
+    background-color: #F9F7F3;
+}
+
+.vlog-wrapper:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px 0 rgba(63, 45, 45, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
 }
 
 .video-wrapper {
