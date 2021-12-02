@@ -35,6 +35,16 @@ body {
     font-size: 3rem;
 }
 
+@media only screen and (max-width: 600px) {
+    .intro-text-container {
+        padding: 25px;
+    }
+
+    .intro-text-container h1 {
+        font-size: 2.5rem;
+    }
+}
+
 .navbar {
     padding: 0 10%;
     position: absolute;
@@ -79,10 +89,16 @@ body {
     border: 2px solid black;
     border-radius: 10px;
     overflow: hidden;
+    margin: 25px 0;
 }
 
 .video-wrapper {
     margin: 25px 0;
     display: flex;
     justify-content: center;
+}
+
+.vlog {
+    width: 100%;
+    min-height: 300px;
 }
