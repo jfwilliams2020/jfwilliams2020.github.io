@@ -1,0 +1,204 @@
+body {
+    background-color: #F9F7F3;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1.25em;
+}
+
+hr {
+    height: 3px !important;
+}
+
+/* Top container styles */
+.top-container {
+    min-height: 100vh;
+    background-image: url("../images/1M3A4521.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-width: 100%;
+}
+
+.filter {
+    background-color: rgba(94,97,98,0.3);
+    min-height: 100vh;
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.intro-text-container {
+    border: 3px solid white;
+    padding: clamp(0.5rem, 5vw, 3.5rem);
+    font-family: 'Cedarville Cursive', cursive;
+    color: white;
+}
+
+.intro-text-container h1 {
+    font-size: 3rem;
+}
+
+
+
+.navbar {
+    padding: 0 10%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navbar-brand {
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 32px;
+    font-weight: 500;
+    color: white !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.navbar-dark {
+    background-color: rgba(94,97,98,0.5)
+}
+
+.nav-link {
+    margin-left: auto;
+}
+
+.navbar-toggler {
+    border: 2px solid white !important;
+}
+
+/* Who we are container styles */
+#who-we-are {
+    padding: 100px 0;
+    background-color: rgba(94,97,98,0.3);
+}
+
+.who-we-are-container {
+    margin: 0 25%;
+    border: 3px solid white;
+    padding: 50px;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    #who-we-are {
+        padding: 2% 0;
+    }
+
+    .intro-text-container h1 {
+        font-size: 2.5rem;
+    }
+
+    .who-we-are-container {
+        margin: 0 2%;
+    }
+
+    .who-we-are-container h1 {
+        font-size: 2.5rem;
+    }
+}
+
+.who-we-are-img {
+    width: 100%;
+}
+
+.who-we-are-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* Vlog container styles */
+#vlogs {
+    margin-top: 25px;
+    padding: 0 10%;
+}
+
+@media (max-width: 600px) {
+    #vlogs {
+        padding: 0 2%;
+    }
+}
+
+.vlog-wrapper, .card {
+    padding: 15px;
+    max-width: 600px;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 25px 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #F9F7F3;
+}
+
+.video-wrapper {
+    margin: 25px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.vlog {
+    width: 100%;
+    min-height: 300px;
+}
+
+/* Dates container styles */
+#favorite-dates {
+    margin: 25px 0 50px 0;
+    padding: 0 10%;
+    text-align: center;
+
+    h1 {
+        text-align: left;
+    }
+}
+
+.grid {
+    display: grid;
+    gap: 1em;
+}
+
+@media (min-width: 1000px) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.card {
+    border: none;
+    margin: 0 auto;
+    width: 100%;
+
+    h4 {
+        font-weight: bold;;
+    }
+}
+
+.card-img-container {
+    padding-top: 62.5%;
+    position: relative;
+}
+
+.card-img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Footer styles */
+footer {
+    padding: 50px 10%;
+    background-color: rgba(94,97,98,0.3);
+    height: 200px;
+}
